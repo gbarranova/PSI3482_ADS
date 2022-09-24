@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      psi3482
+HostName                       GD-D1
+ProcessIdentifier              1540
+ProcessCreationTime_UTC        1663155142
+ProcessCreationTime_Readable   Wed Sep 14 08:32:22 2022 Hora oficial do Brasil
+AppIdentifier                  OA File System Design Manager
+OSType                         win32
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         C:\Ads\psi3482_hama\psi3482_hama_lib\yagi\layout\layout.oa.cdslck
+TimeEditLocked                 Wed Sep 14 08:39:44 2022 Hora oficial do Brasil

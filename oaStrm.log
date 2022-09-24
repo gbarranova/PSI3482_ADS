@@ -1,0 +1,48 @@
+*****************************************************************************
+Tool:		oaStrm              22.60.063
+*****************************************************************************
+Running: oaStrm -templateFile C:\Users\barra\Desktop\psi3482_hama\mfg\gdsTemplate.txt -lib psi3482_hama_lib -libDefFile none -overwrite -shared -gds C:/Users/barra/Desktop/psi3482_hama/prof.gds -textHeight 1.000000 -hierDepth 1000 -layerMap "C:\Users\barra\Desktop\psi3482_hama\mfg\LayerMap.map"
+Started: Sat Sep 24 13:21:17 2022 (Hostname: DESKTOP-J3IAH44)
+Reading layer map C:\Users\barra\Desktop\psi3482_hama\mfg\LayerMap.map
+INFO: (OASTRM-80035): 
+	Library:				psi3482_hama_lib
+	Cell:				
+	View:					layout
+	Tech Library:				YES
+	Cell Case:				Preserve
+	Cell Map:				NO
+	Layer Map:				YES
+	Exclude Map To Via:			NO
+	Property Map:				NO
+	Property Separator:			,
+	Reference Libraries:			NO
+	Overwrite Existing Cells:		YES
+	Append to Existing Database:		NO
+	Ignore Box Records:			NO
+	Convert Paths to PathSegs:		NO
+	Hier Depth:				1000
+	DBUperUU:				10000
+	Log File:				oaStrm.log
+
+
+INFO: (OASTRM-80034): Translating STRUCTURE MainSymbol as cellView psi3482_hama_lib/MainSymbol/layout.
+INFO: (OASTRM-80036): 
+	Instances:			0
+	CustomVias:			0
+	CustomViaDef:			0
+	Arrays:				0
+	Polygons:			5
+	Paths:				0
+	PathSegs:			0
+	Rectangles:			6
+	Text:				0
+	Cells:				1
+	Skipped Zero-Area Polygons:	0
+
+
+Finished:	oaStrm
+Time elapsed:	0.02 seconds
+CPU Time:	2.4375 seconds
+System Time:	2.21875 seconds
+Peak VM:	202547200 bytes
+Messages:	0 errors, 0 warnings

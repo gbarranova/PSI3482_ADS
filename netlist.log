@@ -1,0 +1,34 @@
+; Top Design: "psi3482_hama_lib:aula4:schematic"
+; Netlisted using Hierarchy Policy: "Standard"
+
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="psi3482_hama_lib:aula4:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
+S_Param:SP1 CalcS=yes CalcY=no CalcZ=no GroupDelayAperture=1e-4 FreqConversion=no FreqConversionPort=1 StatusLevel=2 CalcNoise=no SortNoise=0 BandwidthForNoise=1.0 Hz DevOpPtLevel=0 \
+SweepVar="freq" SweepPlan="SP1_stim" OutputPlan="SP1_Output" 
+
+SweepPlan: SP1_stim Start=1.0 GHz Stop=20 GHz Step=0.1 GHz 
+
+OutputPlan:SP1_Output \
+      Type="Output" \
+      UseEquationNestLevel=yes \
+      EquationNestLevel=2 \
+      UseSavedEquationNestLevel=yes \
+      SavedEquationNestLevel=2
+
+#load "python","LinearCollapse"
+Component Module="LinearCollapse" Type="ModelExtractor" NetworkRepresentation=2
+Port:TermG1  N__0 0 Num=1 Z=50 Ohm Noise=yes 
+Port:TermG2  N__1 0 Num=2 Z=50 Ohm Noise=yes 
+MLIN2:TL1  N__0 N__1 Subst="MSub1"  W=0.030031 mm L=3.534770 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+model MSub1 MSUB H=50 um Er=2.9  Mur=1  Cond=1.0E+50  Hu=1e+36 um T=0 um TanD=0 Rough=0 um DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz RoughnessModel=2 
+model MSub2 MSUB H=50 um Er=2.9  Mur=1  Cond=1.0E+50  Hu=1e+36 um TanD=0.0025  Rough=0 um DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz RoughnessModel=2 
+MLIN2:TL2  N__2 N__3 Subst="MSub2"  W=0.114452 mm L=3.337440 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+Port:TermG3  N__2 0 Num=3 Z=50 Ohm Noise=yes 
+Port:TermG4  N__3 0 Num=4 Z=50 Ohm Noise=yes 
+model MSub3 MSUB H=50 um Er=2.9  Mur=1  Cond=1.0E+50  Hu=1e+36 um T=18 um Rough=0 um DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz RoughnessModel=2 
+MLIN2:TL3  N__5 N__4 Subst="MSub3" W=0.114452 mm L=3.337440 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+Port:TermG5  N__5 0 Num=5 Z=50 Ohm Noise=yes 
+Port:TermG6  N__4 0 Num=6 Z=50 Ohm Noise=yes 
+model MSub4 MSUB H=50 um Er=2.9  Mur=1  Cond=1.0E+50  Hu=1e+36 um T=18 um TanD=0.0025  Rough=0 um DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz RoughnessModel=2 
+MLIN2:TL4  N__7 N__6 Subst="MSub4" W=0.114452 mm L=3.337440 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+Port:TermG7  N__7 0 Num=7 Z=50 Ohm Noise=yes 
+Port:TermG8  N__6 0 Num=8 Z=50 Ohm Noise=yes 

@@ -1,0 +1,25 @@
+
+hpeesofsim (*) 570.shp Jul 18 2022, MINT version 5
+    (64-bit windows built: Tue Jul 19, 2022 06:26:23 +0000)
+
+
+***** Simulation started at Sun Aug 28 22:24:01 2022
+      Running on host: "Gustavo"
+      In Directory: "C:\Users\Gustavo.H\Documents\Poli\PSI3482\psi3482_hama\psi3482_hama\data"
+      Process ID: 24408
+
+Warning detected by hpeesofsim in Substrate model during netlist flattening.
+    Simulations referencing substrate `MSub1' will not include metal loss
+    because metal thickness is zero.
+
+Warning detected by hpeesofsim in Substrate model during netlist flattening.
+    Simulations referencing substrate `MSub2' will not include metal loss
+    because metal thickness is zero.
+
+
+SP SP1[1] <psi3482_hama_lib:aula4:schematic>   freq=(1 GHz->20 GHz)
+
+
+Resource usage:
+  Total stopwatch time     =     1.43 seconds.
+

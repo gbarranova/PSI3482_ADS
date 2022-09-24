@@ -1,0 +1,21 @@
+
+hpeesofsim (*) 570.shp Jul 18 2022, MINT version 5
+    (64-bit windows built: Tue Jul 19, 2022 06:26:23 +0000)
+
+
+***** Simulation started at Sun Aug 28 23:29:38 2022
+      Running on host: "Gustavo"
+      In Directory: "C:\Users\Gustavo.H\Documents\Poli\PSI3482\psi3482_hama\psi3482_hama\simulation\psi3482_hama_lib\cild\cild_1"
+      Process ID: 5988
+
+Parsing the netlist ...
+Flattening the netlist ...
+
+AC ZcGammaExt[1] <netlist.txt>   freq=15 GHz
+
+SP SP1[1] <netlist.txt>   freq=15 GHz
+
+Checking for unresolved variables ...
+Flushing data (please wait) ...
+     ... data flush done.
+

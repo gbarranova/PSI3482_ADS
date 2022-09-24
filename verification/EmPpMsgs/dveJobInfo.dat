@@ -1,0 +1,5 @@
+jobName=EmPpMsgs
+jobType=emprep
+designName=psi3482_hama_lib:MainSymbol:layout
+ruleFilePath=
+addInfo="EM preprocessor messages displayed as DRC errors"

@@ -1,0 +1,17 @@
+
+hpeesofsim (*) 551.shp Oct 27 2021, MINT version 5
+    (64-bit windows built: Thu Oct 28, 2021 03:25:42 +0000)
+
+
+***** Simulation started at Wed Aug 17 08:59:39 2022
+      Running on host: "GD-D6"
+      In Directory: "C:\Ads\psi3482_hama\data"
+      Process ID: 720
+
+
+SP SP1[1] <psi3482_hama_lib:cell_1:schematic>   freq=(100 MHz->10 GHz)
+
+
+Resource usage:
+  Total stopwatch time     =    10.26 seconds.
+

@@ -1,0 +1,4 @@
+INCLUDE $HPEESOF_DIR/oalibs/analog_rf.defs
+INCLUDE $HPEESOF_DIR/oalibs/dsp.defs
+DEFINE psi3482_hama_lib psi3482_hama_lib
+ASSIGN psi3482_hama_lib libMode shared
