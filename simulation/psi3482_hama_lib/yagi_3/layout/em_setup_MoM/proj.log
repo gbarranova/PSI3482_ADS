@@ -1,8 +1,8 @@
-License checkout took 0.275 sec
-License checkout took 0.183 sec
+License checkout took 7.245 sec
+License checkout took 3.609 sec
 Momentum MomEngine_64 2023.00.265 (*) built: Jul  1 2022
 Copyright  1992 - 2022 Keysight Technologies
-Simulation started on: Mon Sep 26 00:01:58 2022
+Simulation started on: Mon Sep 26 10:26:24 2022
 Simulation Mode: uW
 Substrate valid
 Using the minimal snap distance of 0.0004 mm
@@ -18,7 +18,7 @@ S-parameter simulation started
 ...analyzing ports
 ...reducing mesh
 Automatic selection: direct dense matrix solver
-Using multi-threading (12 threads)
+Using multi-threading (4 threads)
 Matrix size: 1516 (reduced: 1419)
 Simulation temperature: 298.15 K
 Adaptive frequency sweep started
@@ -231,5 +231,5 @@ Simulation frequency [29] = 89.6296 GHz
 ...calculating S-parameters
 Adaptive: 100.0 % of frequency range covered
 S-parameter simulation finished
-Simulation finished on: Mon Sep 26 00:02:17 2022
+Simulation finished on: Mon Sep 26 10:26:56 2022
 The simulation results have been saved in dataset "yagi_3_MomUW".

@@ -1,7 +1,7 @@
 simulationMode 1;
 simulationTemperature 298.15;
-# simDir "C:\Users\Gustavo.H\Documents\Poli\PSI3482_ADS\simulation\psi3482_hama_lib\yagi_3\layout\em_setup_MoM";
-# simTag "M220926000157";
+# simDir "C:\Users\hamag\Documents\POLI\PSI3482_ADS\simulation\psi3482_hama_lib\yagi_3\layout\em_setup_MoM";
+# simTag "M220926102612";
 logFile "proj.log";
 processPriority Normal;
 mesh_reduction ON;
@@ -25,7 +25,7 @@ modelTypeStrip 3;
 modelTypeVia 3;
 SAVECURRENTSINFILE 1;
 SPARAM_OUTPUTFORMAT SMATRIXIO;
-DS_DIR "C:\Users\Gustavo.H\Documents\Poli\PSI3482_ADS\data";
+DS_DIR "C:\Users\hamag\Documents\POLI\PSI3482_ADS\data";
 DS_NAME "yagi_3_MomUW";
 REUSEPREVIOUSRESULTS OFF;
 INCLUDEPORTSOLVER ON;
