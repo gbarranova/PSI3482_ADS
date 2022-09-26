@@ -9,8 +9,8 @@
         <layer>1</layer>
         <purpose>-1</purpose>
         <point>
-          <x>0</x>
-          <y>-0.00285</y>
+          <x>-7e-07</x>
+          <y>-0.00276</y>
         </point>
       </shape>
     </layout>

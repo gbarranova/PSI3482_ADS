@@ -1,8 +1,8 @@
-License checkout took 6.806 sec
-License checkout took 3.390 sec
+License checkout took 0.275 sec
+License checkout took 0.183 sec
 Momentum MomEngine_64 2023.00.265 (*) built: Jul  1 2022
 Copyright  1992 - 2022 Keysight Technologies
-Simulation started on: Sat Sep 24 13:03:57 2022
+Simulation started on: Mon Sep 26 00:01:58 2022
 Simulation Mode: uW
 Substrate valid
 Using the minimal snap distance of 0.0004 mm
@@ -18,15 +18,8 @@ S-parameter simulation started
 ...analyzing ports
 ...reducing mesh
 Automatic selection: direct dense matrix solver
-Using multi-threading (6 threads)
-Matrix size: 2033 (reduced: 1841)
-
---- WARNING -------------------------------------------------------------------
-
-The size of the plus pin for S-parameter port 1 is electrically large 
-above 43.403 GHz, S-parameters may become unphysical.
-
--------------------------------------------------------------------------------
+Using multi-threading (12 threads)
+Matrix size: 1516 (reduced: 1419)
 Simulation temperature: 298.15 K
 Adaptive frequency sweep started
 Simulation frequency [1] = 0 Hz
@@ -60,28 +53,28 @@ Simulation frequency [4] = 80 GHz
 ...solving interaction matrix
 .........|.........|.........|.........| 
 ...calculating S-parameters
-Simulation frequency [5] = 30 GHz
+Simulation frequency [5] = 40 GHz
 ...loading Green functions
 ...loading interaction matrix
 .........|.........|.........|.........| 
 ...solving interaction matrix
 .........|.........|.........|.........| 
 ...calculating S-parameters
-Simulation frequency [6] = 15 GHz
+Simulation frequency [6] = 20 GHz
 ...loading Green functions
 ...loading interaction matrix
 .........|.........|.........|.........| 
 ...solving interaction matrix
 .........|.........|.........|.........| 
 ...calculating S-parameters
-Simulation frequency [7] = 22.5 GHz
+Simulation frequency [7] = 30 GHz
 ...loading Green functions
 ...loading interaction matrix
 .........|.........|.........|.........| 
 ...solving interaction matrix
 .........|.........|.........|.........| 
 ...calculating S-parameters
-Simulation frequency [8] = 18.75 GHz
+Simulation frequency [8] = 25 GHz
 ...loading Green functions
 ...loading interaction matrix
 .........|.........|.........|.........| 
@@ -95,70 +88,141 @@ Simulation frequency [9] = 10 GHz
 ...solving interaction matrix
 .........|.........|.........|.........| 
 ...calculating S-parameters
-Simulation frequency [10] = 5 GHz
+Simulation frequency [10] = 66.6667 GHz
 ...loading Green functions
 ...loading interaction matrix
 .........|.........|.........|.........| 
 ...solving interaction matrix
 .........|.........|.........|.........| 
 ...calculating S-parameters
-Simulation frequency [11] = 50 GHz
+Simulation frequency [11] = 68.8889 GHz
 ...loading Green functions
 ...loading interaction matrix
 .........|.........|.........|.........| 
 ...solving interaction matrix
 .........|.........|.........|.........| 
 ...calculating S-parameters
-Simulation frequency [12] = 70 GHz
+Simulation frequency [12] = 3.33333 GHz
 ...loading Green functions
 ...loading interaction matrix
 .........|.........|.........|.........| 
 ...solving interaction matrix
 .........|.........|.........|.........| 
 ...calculating S-parameters
-Simulation frequency [13] = 73.3333 GHz
+Simulation frequency [13] = 53.3333 GHz
 ...loading Green functions
 ...loading interaction matrix
 .........|.........|.........|.........| 
 ...solving interaction matrix
 .........|.........|.........|.........| 
 ...calculating S-parameters
-Simulation frequency [14] = 63.3333 GHz
+Simulation frequency [14] = 86.6667 GHz
 ...loading Green functions
 ...loading interaction matrix
 .........|.........|.........|.........| 
 ...solving interaction matrix
 .........|.........|.........|.........| 
 ...calculating S-parameters
-Simulation frequency [15] = 86.6667 GHz
+Simulation frequency [15] = 91.1111 GHz
 ...loading Green functions
 ...loading interaction matrix
 .........|.........|.........|.........| 
 ...solving interaction matrix
 .........|.........|.........|.........| 
 ...calculating S-parameters
-Simulation frequency [16] = 93.3333 GHz
+Simulation frequency [16] = 57.7778 GHz
 ...loading Green functions
 ...loading interaction matrix
 .........|.........|.........|.........| 
 ...solving interaction matrix
 .........|.........|.........|.........| 
 ...calculating S-parameters
-Simulation frequency [17] = 96.6667 GHz
+Simulation frequency [17] = 76.2963 GHz
 ...loading Green functions
 ...loading interaction matrix
 .........|.........|.........|.........| 
 ...solving interaction matrix
 .........|.........|.........|.........| 
 ...calculating S-parameters
-Simulation frequency [18] = 76.6667 GHz
+Simulation frequency [18] = 84.4444 GHz
 ...loading Green functions
 ...loading interaction matrix
 .........|.........|.........|.........| 
 ...solving interaction matrix
 .........|.........|.........|.........| 
 ...calculating S-parameters
-Simulation frequency [19] = 95 GHz
+Simulation frequency [19] = 35 GHz
+...loading Green functions
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [20] = 95.5556 GHz
+...loading Green functions
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [21] = 97.7778 GHz
+...loading Green functions
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [22] = 63.3333 GHz
+...loading Green functions
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [23] = 11.6667 GHz
+...loading Green functions
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [24] = 5.55556 GHz
+...loading Green functions
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [25] = 93.3333 GHz
+...loading Green functions
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [26] = 58.8889 GHz
+...loading Green functions
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calculating S-parameters
+Adaptive:  60.0 % of frequency range covered
+Simulation frequency [27] = 61.1111 GHz
+...loading Green functions
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [28] = 88.1481 GHz
+...loading Green functions
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [29] = 89.6296 GHz
 ...loading Green functions
 ...loading interaction matrix
 .........|.........|.........|.........| 
@@ -167,5 +231,5 @@ Simulation frequency [19] = 95 GHz
 ...calculating S-parameters
 Adaptive: 100.0 % of frequency range covered
 S-parameter simulation finished
-Simulation finished on: Sat Sep 24 13:04:20 2022
+Simulation finished on: Mon Sep 26 00:02:17 2022
 The simulation results have been saved in dataset "yagi_3_MomUW".
