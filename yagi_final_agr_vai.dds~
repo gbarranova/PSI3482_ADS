@@ -10,11 +10,11 @@ ddoId = get_new(ddsId, "Object");
 // DataDisplay Object:
 	set(ddoId, "Path", dds_get_exec_path(what_file(0)));
 	set(ddoId, "Name", dds_get_exec_file(what_file(0)));
-	set(ddoId, "FileModifiedDateAndTime", "2022-09-26T15:46:18Z");
+	set(ddoId, "FileModifiedDateAndTime", "2022-09-27T20:33:37Z");
 	set(ddoId, "FileCreatedDateAndTime", "2011-02-04T11:43:32Z");
 	dssId = get(ddoId, "DatasetServer");
 // Default Dataset
-	set(ddoId, "DefaultDataset", "yagi_3_cpw2_MomUW_a");
+	set(ddoId, "DefaultDataset", "aula3");
 // Snap/Grid Defaults 
 	set(ddoId, "GridType", 0);
 	set(ddoId, "GridOn", FALSE);
@@ -35,7 +35,7 @@ goId0 = get_new(pageId, "Plot");
 	set(goId0, "Name", "");
 	set(goId0, "Uid", 1750921729);
 // Graphical Object:
-	set(goId0, "Right", 4766);
+	set(goId0, "Right", 4725);
 	set(goId0, "Bottom", 5461);
 	set(goId0, "Left", 63);
 	set(goId0, "Top", 2208);
@@ -52,7 +52,7 @@ goId0 = get_new(pageId, "Plot");
 // Plot base...
 	set(goId0, "LegendOnOff", TRUE);
 	set(goId0, "LeftMargin", 812);
-	set(goId0, "RightMargin", 141);
+	set(goId0, "RightMargin", 100);
 	set(goId0, "TopMargin", 292);
 	set(goId0, "BottomMargin", 586);
 // Plot Title...
@@ -75,9 +75,9 @@ axisID = get_new(goId0, "Axis", ddsXaxis, "X Axis");
 		 set(axisID, "LineType", 0);
 		 set(axisID, "TickFontSize", 167);
 		 set(axisID, "AutoscaleOnOff", TRUE);
-		 set(axisID, "MinValue", 10000000000);
-		 set(axisID, "MaxValue", 100000000000);
-		 set(axisID, "StepSize", 10000000000);
+		 set(axisID, "MinValue", 0);
+		 set(axisID, "MaxValue", 20000000000);
+		 set(axisID, "StepSize", 2000000000);
 		 set(axisID, "Logarithmic", FALSE);
 		 set(axisID, "Font", "Arial For CAE");
 		 set(axisID, "Format", ddsFormatAutomatic);
@@ -98,9 +98,9 @@ axisID = get_new(goId0, "Axis", ddsYaxis, "Y Axis");
 		 set(axisID, "LineType", 0);
 		 set(axisID, "TickFontSize", 167);
 		 set(axisID, "AutoscaleOnOff", TRUE);
-		 set(axisID, "MinValue", -60);
-		 set(axisID, "MaxValue", 0);
-		 set(axisID, "StepSize", 10);
+		 set(axisID, "MinValue", -10);
+		 set(axisID, "MaxValue", -3);
+		 set(axisID, "StepSize", 1);
 		 set(axisID, "Logarithmic", FALSE);
 		 set(axisID, "Font", "Arial For CAE");
 		 set(axisID, "Format", ddsFormatAutomatic);
@@ -238,7 +238,7 @@ goId0 = get_new(pageId, "Plot");
 	set(goId0, "Name", "");
 	set(goId0, "Uid", 326109643);
 // Graphical Object:
-	set(goId0, "Right", 9891);
+	set(goId0, "Right", 9850);
 	set(goId0, "Bottom", 5461);
 	set(goId0, "Left", 5094);
 	set(goId0, "Top", 2208);
@@ -255,7 +255,7 @@ goId0 = get_new(pageId, "Plot");
 // Plot base...
 	set(goId0, "LegendOnOff", TRUE);
 	set(goId0, "LeftMargin", 906);
-	set(goId0, "RightMargin", 141);
+	set(goId0, "RightMargin", 100);
 	set(goId0, "TopMargin", 292);
 	set(goId0, "BottomMargin", 586);
 // Plot Title...
@@ -278,9 +278,9 @@ axisID = get_new(goId0, "Axis", ddsXaxis, "X Axis");
 		 set(axisID, "LineType", 0);
 		 set(axisID, "TickFontSize", 167);
 		 set(axisID, "AutoscaleOnOff", TRUE);
-		 set(axisID, "MinValue", 10000000000);
-		 set(axisID, "MaxValue", 100000000000);
-		 set(axisID, "StepSize", 10000000000);
+		 set(axisID, "MinValue", 0);
+		 set(axisID, "MaxValue", 20000000000);
+		 set(axisID, "StepSize", 2000000000);
 		 set(axisID, "Logarithmic", FALSE);
 		 set(axisID, "Font", "Arial For CAE");
 		 set(axisID, "Format", ddsFormatAutomatic);
@@ -479,7 +479,7 @@ goId0 = get_new(pageId, "Text");
 	set(goId0, "Name", "");
 	set(goId0, "Uid", 1848606170);
 // Graphical Object:
-	set(goId0, "Right", 4507);
+	set(goId0, "Right", 4326);
 	set(goId0, "Bottom", 1792);
 	set(goId0, "Left", 2750);
 	set(goId0, "Top", 1625);
@@ -509,7 +509,7 @@ goId0 = get_new(pageId, "Text");
 	set(goId0, "Name", "");
 	set(goId0, "Uid", 1098527054);
 // Graphical Object:
-	set(goId0, "Right", 7518);
+	set(goId0, "Right", 5988);
 	set(goId0, "Bottom", 6292);
 	set(goId0, "Left", 3750);
 	set(goId0, "Top", 6125);
@@ -546,7 +546,7 @@ goId0 = get_new(pageId, "Text");
 	set(goId0, "LineWidth", 7);
 // Base Class Object:
 	set(pageId, "Name", "Mag/Phase");
-	set(pageId, "Uid", 1915409644);
+	set(pageId, "Uid", 454853952);
 	set(pageId, "Invisible", FALSE);
 pageId = get_new(ddoId, "Page");
 goId0 = get_new(pageId, "SmithChart");
@@ -850,8 +850,8 @@ goId0 = get_new(pageId, "Equation");
 
 ddWinId = get_new(ddsId, "Window", 374, 188, 988, 720);
 	set(ddWinId, "Object", ddoId);
-	set(ddWinId, "CurrentPage", 1915409644);
-	set(ddWinId, "PageViewRect_1915409644", list(-386, 5245, 6300, 472));
+	set(ddWinId, "CurrentPage", 454853952);
+	set(ddWinId, "PageViewRect_454853952", list(-132, 7277, 10045, 15));
 	set(ddWinId, "PageViewRect_228509786", list(-119, 4824, 5344, 926));
 	set(ddWinId, "PageViewRect_985290484", list(-1628, 7079, 11554, -2329));
 	set(ddWinId, "Frame", list(374, 188, 988, 720));

@@ -1,5 +1,5 @@
 jobName=EmPpMsgs
 jobType=emprep
-designName=psi3482_hama_lib:yagi_3_cpw2:layout
+designName=psi3482_hama_lib:yagi_final_agr_vai:layout
 ruleFilePath=
 addInfo="EM preprocessor messages displayed as DRC errors"

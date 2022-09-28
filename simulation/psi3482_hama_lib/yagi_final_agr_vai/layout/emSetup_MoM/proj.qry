@@ -1,0 +1,16 @@
+#Momentum: B.2023.00.265 (*) built: Jul  1 2022 
+#Momentum Date and Time: Tue Sep 27 17:32:26 2022
+
+Overall database status : 1 (file present and valid)
+
+Frequency range : from 10 GHz to 80 GHz.
+
+Requested frequency range : from 10 GHz to 80 GHz.
+
+Individual status fields : (0 = FALSE, 1 = TRUE)
+ File exists             : 1
+ Substrates match        : 1
+ Frequency-range matches : 1
+
+Corresponding potentialpath : C:\Users\hamag/
+Corresponding potentialname : C:\Users\hamag\\substrates\0002.sdb

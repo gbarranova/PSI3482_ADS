@@ -1,9 +1,7 @@
 <!DOCTYPE SaveWorkspaceState>
 <SaveWorkspaceState>
     <Windows>
-        <Layout width="1920" height="1017" view="layout" x1="-1" y1="-8" geom="1,0,3,79,91,1536,832,1920,1080" cell="patch_exemplo_professor" lib="psi3482_hama_lib"/>
-        <Substrate file="ULTRALAM_3850" width="1536" height="832" x1="38" y1="20" geom="1,0,1,39,51,1536,832,1920,1080" lib="psi3482_hama_lib"/>
-        <DDS name="patch_exemplo_professor.dds"/>
+        <Layout x1="-1" y1="-8" height="1017" width="1920" cell="yagi_final_agr_vai" geom="1,0,2,79,91,1536,832,1920,1080" lib="psi3482_hama_lib" view="layout"/>
     </Windows>
     <MainWindowTab tab="1"/>
 </SaveWorkspaceState>
