@@ -1,7 +1,5 @@
 <!DOCTYPE SaveWorkspaceState>
 <SaveWorkspaceState>
-    <Windows>
-        <Layout x1="-1" y1="-8" height="1017" width="1920" cell="yagi_final_agr_vai" geom="1,0,2,79,91,1536,832,1920,1080" lib="psi3482_hama_lib" view="layout"/>
-    </Windows>
+    <Windows/>
     <MainWindowTab tab="1"/>
 </SaveWorkspaceState>
