@@ -1,0 +1,17 @@
+Info: Creating new options file at: C:/Users/barra/Documents/PSI3482/PSI3482_ADS/BrdOptions.xml - using default values
+Info: Importing .brd file: C:/Users/barra/Desktop/antena/Patch_yagi_LCP.S1P
+Info: Importing into library Patch_yagi_LCP_lib at: ./Patch_yagi_LCP_lib
+Info: 
+qua out 19 15:30:43 2022 (0 Minutes 0 Seconds 3 Milliseconds total): Starting import
+
+Warning: BRD Import supports only Allegro .brd files. Importing file with specified extension ".S1P" may result in incomplete import or errors. Check log and imported design carefully.
+Warning: BRD Import works best with Net Based connectivity settings. The workspace default mode is set to something else, which will be used for all imported designs. Check all imported net names carefully for errors.
+Error: Cadence Extracta command not found in $PATH or $CDSROOT. Cadence Allegro must be installed on this machine for BRD import to function.
+Error: Failed to generate intermediate files for C:/Users/barra/Desktop/antena/Patch_yagi_LCP.S1P
+Error: Brd import failed for file C:/Users/barra/Desktop/antena/Patch_yagi_LCP.S1P into library ./Patch_yagi_LCP_lib
+Info: 
+qua out 19 15:30:48 2022 (0 Minutes 5 Seconds 94 Milliseconds total): Import completed
+
+
+
+Import complete for Patch_yagi_LCP.S1P. 3 errors, 2 warnings.
