@@ -1,0 +1,17 @@
+
+hpeesofsim (*) 570.shp Jul 18 2022, MINT version 5
+    (64-bit windows built: Tue Jul 19, 2022 06:26:23 +0000)
+
+
+***** Simulation started at Fri Oct 21 00:02:25 2022
+      Running on host: "newbar-w"
+      In Directory: "C:\Users\barra\Documents\PSI3482\PSI3482_ADS\data"
+      Process ID: 9036
+
+
+SP SP1[1] <psi3482_hama_lib:amp60GHz:schematic>   freq=(18 GHz->65 GHz)
+
+
+Resource usage:
+  Total stopwatch time     =     8.40 seconds.
+

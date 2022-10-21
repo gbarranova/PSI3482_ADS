@@ -1,0 +1,5 @@
+create_item("DA_ActiveAmpBias1D_amp60GHz_test","1 Device OpAmp Based Active Biasing Network","DA_ActiveAmpBias1D",16,-1,"ActiveAmpBias1D.bmp","Component Parameters",NULL,"%d:%t %# %44?0%:%31?%C%:_net%c%;%;%e %b%r%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%;%e%e","DA_ActiveAmpBias1D_amp60GHz_test","%t%b%r%38?%:\n%39?all_parm%A%:%30?%s%:%k%?[%1i]%;=%s%;%;%;%e%e%;","ActiveAmpBias1D",3,NULL,0,
+create_parm("VBias","Desired Drain (or Collector) Bias Voltage",66048,"StdFormSet",9,prm("StdForm","3 V")),
+create_parm("I1","Desired Drain (or Collector) Bias Current",66048,"StdFormSet",10,prm("StdForm","10 mA")),
+create_parm("Vp","Positive Supply Voltage Level",66048,"StdFormSet",9,prm("StdForm","15 V")),
+create_parm("Vm","Negative Supply Voltage Level",66048,"StdFormSet",9,prm("StdForm","-15 V")));
